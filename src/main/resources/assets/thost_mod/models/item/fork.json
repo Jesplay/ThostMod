@@ -1,0 +1,7 @@
+{
+  "parent": "thost_mod:custom/fork_2.0",
+  "textures": {
+    "2": "minecraft:block/iron_block",
+    "particle": "thost_mod:item/texture"
+  }
+}

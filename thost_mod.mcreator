@@ -1,0 +1,296 @@
+{
+  "mod_elements": [
+    {
+      "name": "Thoster",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thoster",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/loot_tables/blocks/thoster.json",
+          "src/main/java/net/mcreator/thostmod/block/entity/ThosterBlockEntity.java",
+          "src/main/java/net/mcreator/thostmod/block/ThosterBlock.java",
+          "src/main/resources/assets/thost_mod/models/block/thoster.json",
+          "src/main/resources/assets/thost_mod/models/item/thoster.json",
+          "src/main/resources/assets/thost_mod/blockstates/thoster.json"
+        ]
+      }
+    },
+    {
+      "name": "Fork",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fork",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thostmod/item/ForkItem.java",
+          "src/main/resources/assets/thost_mod/models/item/fork.json"
+        ]
+      }
+    },
+    {
+      "name": "ForkRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fork_rightclicked_on_block",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "files": [
+          "src/main/java/net/mcreator/thostmod/procedures/ForkRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thosterstates",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thosterstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thost_mod/models/block/thosterstates_blockstate_4.json",
+          "src/main/resources/assets/thost_mod/models/block/thosterstates_blockstate_1.json",
+          "src/main/resources/assets/thost_mod/models/block/thosterstates_blockstate_5.json",
+          "src/main/resources/assets/thost_mod/models/block/thosterstates_blockstate_2.json",
+          "src/main/resources/assets/thost_mod/models/block/thosterstates_blockstate_0.json",
+          "src/main/resources/assets/thost_mod/models/block/thosterstates_blockstate_3.json"
+        ]
+      }
+    },
+    {
+      "name": "ThostMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thost_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Inputthost",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inputthost",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "files": [
+          "src/main/java/net/mcreator/thostmod/procedures/InputthostProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Toast",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thost",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thostmod/item/ToastItem.java",
+          "src/main/resources/assets/thost_mod/models/item/thost.json"
+        ]
+      }
+    },
+    {
+      "name": "ToastedToast",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thosted_thost",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thost_mod/models/item/thosted_thost.json",
+          "src/main/java/net/mcreator/thostmod/item/ToastedToastItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dropthost",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropthost",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thostmod/procedures/DropthostProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThosterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thoster_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/thoster_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Thost",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thost",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/thost.json"
+        ]
+      }
+    },
+    {
+      "name": "ForkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fork_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/fork_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThosterDeath",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thoster_death",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/damage_type/thoster_death.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "bing",
+      "files": [
+        "2022-04-18_19-29-13-_mp3cut.net_"
+      ],
+      "category": "neutral",
+      "subtitle": "Bing"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Thoster"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Thoster"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "death.attack.thoster_death": "%1$s did the funny",
+      "block.thost_mod.thoster": "Thoster",
+      "item_group.thost_mod.thost_mod": "Thost Mod",
+      "death.attack.thoster_death.player": "%1$s did the funny, just to escape a world with %2$s",
+      "item.thost_mod.thosted_thost": "Thosted Thost",
+      "item.thost_mod.thost": "Thost",
+      "death.attack.thoster_death.item": "%1$s was killed by %2$s by floating point fuckery",
+      "subtitles.bing": "Bing",
+      "item.thost_mod.fork": "Fork"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thost_mod",
+    "modName": "Thost Mod",
+    "version": "1.0.0",
+    "author": "Arianderson, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.thostmod"
+  },
+  "mcreatorVersion": 202400342716
+}

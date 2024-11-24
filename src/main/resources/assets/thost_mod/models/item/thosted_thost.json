@@ -1,0 +1,10 @@
+{
+  "parent": "thost_mod:custom/toast_toasted",
+  "textures": {
+    "3": "minecraft:block/dark_oak_log",
+    "4": "minecraft:block/oak_log",
+    "6": "minecraft:block/stripped_oak_log",
+    "missing": "thost_mod:block/",
+    "particle": "minecraft:item/bread"
+  }
+}

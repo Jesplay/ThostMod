@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "12": "minecraft:sandstone_top",
+        "13": "minecraft:dark_oak_log",
+        "14": "minecraft:oak_log",
+        "15": "minecraft:sandstone_top",
+        "0": "minecraft:white_concrete",
+        "1": "minecraft:light_gray_terracotta",
+        "2": "minecraft:red_concrete_powder",
+        "4": "minecraft:black_concrete_powder",
+        "5": "minecraft:light_gray_concrete",
+        "7": "minecraft:light_gray_shulker_box",
+        "missing": "",
+        "8": "minecraft:iron_bars",
+        "9": "minecraft:acacia_door_top"
+      },
+      "name": "default"
+    }
+  }
+}

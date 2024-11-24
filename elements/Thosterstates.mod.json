@@ -1,0 +1,377 @@
+{
+  "_fv": 69,
+  "_type": "blockstates",
+  "definition": {
+    "block": "Thoster",
+    "blockstateList": [
+      {
+        "texture": "minecraft:light_gray_concrete",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "minecraft:sand",
+        "renderType": 2,
+        "customModelName": "toaster_1_top:default",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "minecraft:light_gray_concrete",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "minecraft:sand",
+        "renderType": 2,
+        "customModelName": "toaster_2_top:default",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "minecraft:light_gray_concrete",
+        "textureTop": "minecraft:acacia_log",
+        "textureLeft": "minecraft:acacia_log",
+        "textureFront": "minecraft:acacia_log",
+        "textureRight": "minecraft:acacia_log",
+        "textureBack": "minecraft:acacia_log",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "toaster_1_toast:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.5,
+            "my": 1.0,
+            "mz": 3.5,
+            "Mx": 13.5,
+            "My": 9.0,
+            "Mz": 5.5,
+            "subtract": false
+          },
+          {
+            "mx": 2.5,
+            "my": 3.0,
+            "mz": 5.525,
+            "Mx": 13.5,
+            "My": 9.0,
+            "Mz": 5.525,
+            "subtract": false
+          },
+          {
+            "mx": 2.5,
+            "my": 3.0,
+            "mz": 10.475,
+            "Mx": 13.5,
+            "My": 9.0,
+            "Mz": 10.475,
+            "subtract": false
+          },
+          {
+            "mx": 2.5,
+            "my": 1.0,
+            "mz": 10.5,
+            "Mx": 13.5,
+            "My": 9.0,
+            "Mz": 12.5,
+            "subtract": false
+          },
+          {
+            "mx": 3.5,
+            "my": 1.0,
+            "mz": 5.5,
+            "Mx": 12.5,
+            "My": 2.0,
+            "Mz": 10.5,
+            "subtract": false
+          },
+          {
+            "mx": 3.5,
+            "my": 1.0,
+            "mz": 7.5,
+            "Mx": 12.5,
+            "My": 8.5,
+            "Mz": 8.5,
+            "subtract": false
+          },
+          {
+            "mx": 1.5,
+            "my": 1.0,
+            "mz": 5.5,
+            "Mx": 3.5,
+            "My": 9.0,
+            "Mz": 10.5,
+            "subtract": false
+          },
+          {
+            "mx": 1.5,
+            "my": 1.0,
+            "mz": 4.5,
+            "Mx": 2.5,
+            "My": 9.0,
+            "Mz": 5.5,
+            "subtract": false
+          },
+          {
+            "mx": 1.5,
+            "my": 1.0,
+            "mz": 10.5,
+            "Mx": 2.5,
+            "My": 9.0,
+            "Mz": 11.5,
+            "subtract": false
+          },
+          {
+            "mx": 13.5,
+            "my": 1.0,
+            "mz": 10.5,
+            "Mx": 14.5,
+            "My": 9.0,
+            "Mz": 11.5,
+            "subtract": false
+          },
+          {
+            "mx": 13.5,
+            "my": 1.0,
+            "mz": 4.5,
+            "Mx": 14.5,
+            "My": 9.0,
+            "Mz": 5.5,
+            "subtract": false
+          },
+          {
+            "mx": 12.5,
+            "my": 1.0,
+            "mz": 5.5,
+            "Mx": 14.5,
+            "My": 9.0,
+            "Mz": 10.5,
+            "subtract": false
+          },
+          {
+            "mx": 3.5,
+            "my": 8.5,
+            "mz": 7.5,
+            "Mx": 12.5,
+            "My": 9.0,
+            "Mz": 8.5,
+            "subtract": false
+          },
+          {
+            "mx": 2.5,
+            "my": 0.0,
+            "mz": 4.5,
+            "Mx": 13.5,
+            "My": 1.0,
+            "Mz": 11.5,
+            "subtract": false
+          },
+          {
+            "mx": 14.5,
+            "my": 1.475,
+            "mz": 7.0,
+            "Mx": 15.5,
+            "My": 2.475,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 1.5,
+            "mz": 7.625,
+            "Mx": 14.75,
+            "My": 5.5,
+            "Mz": 8.375,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "minecraft:light_gray_concrete",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "toaster_2_toast:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 2.5,
+            "my": 1.0,
+            "mz": 3.5,
+            "Mx": 13.5,
+            "My": 9.0,
+            "Mz": 5.5,
+            "subtract": false
+          },
+          {
+            "mx": 2.5,
+            "my": 3.0,
+            "mz": 5.525,
+            "Mx": 13.5,
+            "My": 9.0,
+            "Mz": 5.525,
+            "subtract": false
+          },
+          {
+            "mx": 2.5,
+            "my": 3.0,
+            "mz": 10.475,
+            "Mx": 13.5,
+            "My": 9.0,
+            "Mz": 10.475,
+            "subtract": false
+          },
+          {
+            "mx": 2.5,
+            "my": 1.0,
+            "mz": 10.5,
+            "Mx": 13.5,
+            "My": 9.0,
+            "Mz": 12.5,
+            "subtract": false
+          },
+          {
+            "mx": 3.5,
+            "my": 1.0,
+            "mz": 5.5,
+            "Mx": 12.5,
+            "My": 2.0,
+            "Mz": 10.5,
+            "subtract": false
+          },
+          {
+            "mx": 3.5,
+            "my": 1.0,
+            "mz": 7.5,
+            "Mx": 12.5,
+            "My": 8.5,
+            "Mz": 8.5,
+            "subtract": false
+          },
+          {
+            "mx": 1.5,
+            "my": 1.0,
+            "mz": 5.5,
+            "Mx": 3.5,
+            "My": 9.0,
+            "Mz": 10.5,
+            "subtract": false
+          },
+          {
+            "mx": 1.5,
+            "my": 1.0,
+            "mz": 4.5,
+            "Mx": 2.5,
+            "My": 9.0,
+            "Mz": 5.5,
+            "subtract": false
+          },
+          {
+            "mx": 1.5,
+            "my": 1.0,
+            "mz": 10.5,
+            "Mx": 2.5,
+            "My": 9.0,
+            "Mz": 11.5,
+            "subtract": false
+          },
+          {
+            "mx": 13.5,
+            "my": 1.0,
+            "mz": 10.5,
+            "Mx": 14.5,
+            "My": 9.0,
+            "Mz": 11.5,
+            "subtract": false
+          },
+          {
+            "mx": 13.5,
+            "my": 1.0,
+            "mz": 4.5,
+            "Mx": 14.5,
+            "My": 9.0,
+            "Mz": 5.5,
+            "subtract": false
+          },
+          {
+            "mx": 12.5,
+            "my": 1.0,
+            "mz": 5.5,
+            "Mx": 14.5,
+            "My": 9.0,
+            "Mz": 10.5,
+            "subtract": false
+          },
+          {
+            "mx": 3.5,
+            "my": 8.5,
+            "mz": 7.5,
+            "Mx": 12.5,
+            "My": 9.0,
+            "Mz": 8.5,
+            "subtract": false
+          },
+          {
+            "mx": 2.5,
+            "my": 0.0,
+            "mz": 4.5,
+            "Mx": 13.5,
+            "My": 1.0,
+            "Mz": 11.5,
+            "subtract": false
+          },
+          {
+            "mx": 14.5,
+            "my": 1.475,
+            "mz": 7.0,
+            "Mx": 15.5,
+            "My": 2.475,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 14.0,
+            "my": 1.5,
+            "mz": 7.625,
+            "Mx": 14.75,
+            "My": 5.5,
+            "Mz": 8.375,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "minecraft:light_gray_concrete",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "toaster_1_top_toasted:default",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "minecraft:light_gray_concrete",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "toaster_2_top_toasted:default",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

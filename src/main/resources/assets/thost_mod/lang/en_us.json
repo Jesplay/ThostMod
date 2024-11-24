@@ -1,0 +1,11 @@
+{
+  "death.attack.thoster_death": "%1$s did the funny",
+  "block.thost_mod.thoster": "Thoster",
+  "item_group.thost_mod.thost_mod": "Thost Mod",
+  "death.attack.thoster_death.player": "%1$s did the funny, just to escape a world with %2$s",
+  "item.thost_mod.thosted_thost": "Thosted Thost",
+  "item.thost_mod.thost": "Thost",
+  "death.attack.thoster_death.item": "%1$s was killed by %2$s by floating point fuckery",
+  "subtitles.bing": "Bing",
+  "item.thost_mod.fork": "Fork"
+}

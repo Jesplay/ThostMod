@@ -1,0 +1,20 @@
+{
+  "parent": "thost_mod:custom/toaster_2_top_toasted",
+  "textures": {
+    "all": "minecraft:block/light_gray_concrete",
+    "particle": "minecraft:block/sand",
+    "0": "minecraft:block/white_concrete",
+    "1": "minecraft:block/light_gray_terracotta",
+    "2": "minecraft:block/red_concrete_powder",
+    "13": "minecraft:block/dark_oak_log",
+    "14": "minecraft:block/oak_log",
+    "4": "minecraft:block/black_concrete_powder",
+    "5": "minecraft:block/light_gray_concrete",
+    "17": "minecraft:block/stripped_oak_log",
+    "7": "minecraft:block/light_gray_shulker_box",
+    "missing": "minecraft:block/sand",
+    "8": "minecraft:block/iron_bars",
+    "9": "minecraft:block/acacia_door_top"
+  },
+  "render_type": "solid"
+}
