@@ -1,6 +1,5 @@
 {
   "exhaustion": 0.1,
   "message_id": "thoster_death",
-  "scaling": "never",
-  "effects": "thorns"
+  "scaling": "never"
 }
