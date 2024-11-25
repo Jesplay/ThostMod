@@ -2,24 +2,24 @@
   "_fv": 69,
   "_type": "item",
   "definition": {
-    "renderType": 1,
-    "texture": "img_7552",
-    "customModelName": "backpack_new_-_finalbbmodel:default",
+    "renderType": 0,
+    "texture": "thorium_plate",
+    "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Thost Bag",
+    "name": "Thorium Plate",
     "rarity": "COMMON",
     "creativeTabs": [
       {
         "value": "CUSTOM:ThostMod"
       },
       {
-        "value": "TOOLS"
+        "value": "MATERIALS"
       }
     ],
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -37,7 +37,7 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "guiBoundTo": "ThostBagGUI",
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
@@ -55,6 +55,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "none"
   }
 }

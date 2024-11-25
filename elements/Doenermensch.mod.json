@@ -1,0 +1,16 @@
+{
+  "_fv": 69,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Doenermensch",
+    "pointOfInterest": {
+      "value": "CUSTOM:Spiess"
+    },
+    "actionSound": {
+      "value": "block.anvil.land"
+    },
+    "hat": "None",
+    "professionTextureFile": "doner_vill.png",
+    "zombifiedProfessionTextureFile": "doner_vill.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "thost_mod:custom/doner_spiess_fleisch",
+  "textures": {
+    "all": "thost_mod:block/830_tosun_yaprak_doner-1",
+    "particle": "thost_mod:block/terracotta2",
+    "0": "minecraft:block/anvil",
+    "1": "thost_mod:block/terracotta2"
+  },
+  "render_type": "solid"
+}

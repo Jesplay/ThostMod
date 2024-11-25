@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "thost_mod:block/doener_block"
+    }
+  }
+}

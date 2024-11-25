@@ -34,6 +34,10 @@ public class ThostModModTabs {
 				tabData.accept(ThostModModItems.RAW_THORIUM.get());
 				tabData.accept(ThostModModItems.THORIUM_NUGGET.get());
 				tabData.accept(ThostModModItems.THOST_BAG.get());
+				tabData.accept(ThostModModItems.THORIUM_PLATE.get());
+				tabData.accept(ThostModModItems.DOENER_FLEISCH.get());
+				tabData.accept(ThostModModBlocks.DOENER_BLOCK.get().asItem());
+				tabData.accept(ThostModModBlocks.SPIESS.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -47,11 +51,13 @@ public class ThostModModTabs {
 			tabData.accept(ThostModModItems.THORIUM_INGOT.get());
 			tabData.accept(ThostModModItems.RAW_THORIUM.get());
 			tabData.accept(ThostModModItems.THORIUM_NUGGET.get());
+			tabData.accept(ThostModModItems.THORIUM_PLATE.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 
 			tabData.accept(ThostModModItems.THOST.get());
 			tabData.accept(ThostModModItems.THOSTED_THOST.get());
+			tabData.accept(ThostModModItems.DOENER_FLEISCH.get());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 

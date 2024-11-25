@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "11": "spruce_log",
+        "1": "white_concrete",
+        "2": "light_gray_terracotta",
+        "3": "red_concrete_powder",
+        "5": "magma",
+        "6": "black_concrete_powder",
+        "7": "light_gray_concrete",
+        "missing": "light_gray_glazed_terracotta",
+        "8": "light_gray_shulker_box",
+        "9": "iron_bars",
+        "10": "minecraft:acacia_door_top"
+      },
+      "name": "default"
+    }
+  }
+}

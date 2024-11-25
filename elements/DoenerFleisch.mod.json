@@ -2,19 +2,19 @@
   "_fv": 69,
   "_type": "item",
   "definition": {
-    "renderType": 1,
-    "texture": "img_7552",
-    "customModelName": "backpack_new_-_finalbbmodel:default",
+    "renderType": 0,
+    "texture": "doenerfleisch-kaufen-1",
+    "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Thost Bag",
-    "rarity": "COMMON",
+    "name": "Kebap Meat",
+    "rarity": "EPIC",
     "creativeTabs": [
       {
         "value": "CUSTOM:ThostMod"
       },
       {
-        "value": "TOOLS"
+        "value": "FOOD"
       }
     ],
     "stackSize": 64,
@@ -37,7 +37,7 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "guiBoundTo": "ThostBagGUI",
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
@@ -47,13 +47,13 @@
       "value": "Arrow"
     },
     "projectileDisableAmmoCheck": false,
-    "isFood": false,
+    "isFood": true,
     "nutritionalValue": 4,
     "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
-    "isMeat": false,
+    "isMeat": true,
     "isAlwaysEdible": false,
     "animation": "eat"
   }

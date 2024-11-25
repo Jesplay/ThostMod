@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thost_mod:block/terracotta2",
+    "up": "thost_mod:block/terracotta2",
+    "north": "thost_mod:block/terracotta2",
+    "east": "thost_mod:block/terracotta2",
+    "south": "thost_mod:block/terracotta2",
+    "west": "thost_mod:block/terracotta2",
+    "particle": "thost_mod:block/terracotta2"
+  },
+  "render_type": "solid"
+}

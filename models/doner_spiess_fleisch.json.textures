@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "minecraft:anvil",
+        "1": "terracotta2"
+      },
+      "name": "default"
+    }
+  }
+}

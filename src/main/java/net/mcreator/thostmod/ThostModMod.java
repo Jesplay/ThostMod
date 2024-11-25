@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.thostmod.init.ThostModModVillagerProfessions;
 import net.mcreator.thostmod.init.ThostModModTabs;
 import net.mcreator.thostmod.init.ThostModModSounds;
 import net.mcreator.thostmod.init.ThostModModMenus;
@@ -50,6 +51,7 @@ public class ThostModMod {
 
 		ThostModModTabs.REGISTRY.register(bus);
 
+		ThostModModVillagerProfessions.PROFESSIONS.register(bus);
 		ThostModModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init

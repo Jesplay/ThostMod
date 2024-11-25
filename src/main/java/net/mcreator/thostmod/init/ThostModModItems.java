@@ -15,10 +15,12 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.thostmod.item.ToastedToastItem;
 import net.mcreator.thostmod.item.ToastItem;
 import net.mcreator.thostmod.item.ThostBagItem;
+import net.mcreator.thostmod.item.ThoriumPlateItem;
 import net.mcreator.thostmod.item.ThoriumNuggetItem;
 import net.mcreator.thostmod.item.ThoriumIngotItem;
 import net.mcreator.thostmod.item.RawThoriumItem;
 import net.mcreator.thostmod.item.ForkItem;
+import net.mcreator.thostmod.item.DoenerFleischItem;
 import net.mcreator.thostmod.ThostModMod;
 
 public class ThostModModItems {
@@ -34,6 +36,10 @@ public class ThostModModItems {
 	public static final RegistryObject<Item> RAW_THORIUM = REGISTRY.register("raw_thorium", () -> new RawThoriumItem());
 	public static final RegistryObject<Item> THORIUM_NUGGET = REGISTRY.register("thorium_nugget", () -> new ThoriumNuggetItem());
 	public static final RegistryObject<Item> THOST_BAG = REGISTRY.register("thost_bag", () -> new ThostBagItem());
+	public static final RegistryObject<Item> THORIUM_PLATE = REGISTRY.register("thorium_plate", () -> new ThoriumPlateItem());
+	public static final RegistryObject<Item> DOENER_FLEISCH = REGISTRY.register("doener_fleisch", () -> new DoenerFleischItem());
+	public static final RegistryObject<Item> DOENER_BLOCK = block(ThostModModBlocks.DOENER_BLOCK);
+	public static final RegistryObject<Item> SPIESS = block(ThostModModBlocks.SPIESS);
 
 	// Start of user code block custom items
 	// End of user code block custom items
