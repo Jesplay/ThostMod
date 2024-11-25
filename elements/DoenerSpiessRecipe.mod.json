@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThoriumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DoenerBlock"
+      },
+      {
+        "value": "CUSTOM:ThoriumIngot"
+      },
+      {
+        "value": "CUSTOM:DoenerBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThoriumIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Spiess"
+    },
+    "name": "doener_spiess_recipe",
+    "namespace": "mod"
+  }
+}

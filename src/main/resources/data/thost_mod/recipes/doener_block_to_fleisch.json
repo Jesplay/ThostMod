@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thost_mod:doener_block"
+    }
+  ],
+  "result": {
+    "item": "thost_mod:doener_fleisch",
+    "count": 9
+  }
+}
