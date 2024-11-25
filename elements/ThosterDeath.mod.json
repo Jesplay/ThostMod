@@ -4,7 +4,7 @@
   "definition": {
     "exhaustion": 0.1,
     "scaling": "never",
-    "effects": "hurt",
+    "effects": "poking",
     "normalDeathMessage": "%1$s did the funny",
     "itemDeathMessage": "%1$s was killed by %2$s by floating point fuckery",
     "playerDeathMessage": "%1$s did the funny, just to escape a world with %2$s"

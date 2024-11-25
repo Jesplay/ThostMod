@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "thost_mod:block/thorium_block",
+    "particle": "thost_mod:block/thorium_block"
+  },
+  "render_type": "solid"
+}

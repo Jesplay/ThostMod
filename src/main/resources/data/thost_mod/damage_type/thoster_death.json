@@ -1,5 +1,6 @@
 {
   "exhaustion": 0.1,
   "message_id": "thoster_death",
-  "scaling": "never"
+  "scaling": "never",
+  "effects": "poking"
 }

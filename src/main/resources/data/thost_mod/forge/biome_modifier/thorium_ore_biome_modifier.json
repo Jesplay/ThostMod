@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "thost_mod:thorium_ore",
+  "step": "underground_ores"
+}

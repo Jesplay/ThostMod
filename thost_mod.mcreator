@@ -139,8 +139,8 @@
       "registry_name": "thost",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thostmod/item/ToastItem.java",
-          "src/main/resources/assets/thost_mod/models/item/thost.json"
+          "src/main/resources/assets/thost_mod/models/item/thost.json",
+          "src/main/java/net/mcreator/thostmod/item/ToastItem.java"
         ]
       }
     },
@@ -238,6 +238,193 @@
           "src/main/resources/data/thost_mod/damage_type/thoster_death.json"
         ]
       }
+    },
+    {
+      "name": "ThoriumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thostmod/item/ThoriumIngotItem.java",
+          "src/main/resources/assets/thost_mod/models/item/thorium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thost_mod/models/item/thorium_ore.json",
+          "src/main/resources/assets/thost_mod/blockstates/thorium_ore.json",
+          "src/main/java/net/mcreator/thostmod/block/ThoriumOreBlock.java",
+          "src/main/resources/assets/thost_mod/models/block/thorium_ore.json",
+          "src/main/resources/data/thost_mod/worldgen/configured_feature/thorium_ore.json",
+          "src/main/resources/data/thost_mod/forge/biome_modifier/thorium_ore_biome_modifier.json",
+          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/loot_tables/blocks/thorium_block.json",
+          "src/main/resources/assets/thost_mod/models/block/thorium_block.json",
+          "src/main/java/net/mcreator/thostmod/block/ThoriumBlockBlock.java",
+          "src/main/resources/assets/thost_mod/models/item/thorium_block.json",
+          "src/main/resources/assets/thost_mod/blockstates/thorium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/thorium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/thorium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/thorium_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumOreDeepslate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thost_mod/blockstates/thorium_ore_deepslate.json",
+          "src/main/resources/assets/thost_mod/models/block/thorium_ore_deepslate.json",
+          "src/main/resources/assets/thost_mod/models/item/thorium_ore_deepslate.json",
+          "src/main/java/net/mcreator/thostmod/block/ThoriumOreDeepslateBlock.java",
+          "src/main/resources/data/thost_mod/forge/biome_modifier/thorium_ore_deepslate_biome_modifier.json",
+          "src/main/resources/data/thost_mod/worldgen/configured_feature/thorium_ore_deepslate.json",
+          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore_deepslate.json"
+        ]
+      }
+    },
+    {
+      "name": "RawThorium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_thorium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thostmod/item/RawThoriumItem.java",
+          "src/main/resources/assets/thost_mod/models/item/raw_thorium.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumOreDeepslateSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_deepslate_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/thorium_ore_deepslate_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumOreRawSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_raw_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/thorium_ore_raw_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumOreLoottable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_loottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/loot_tables/blocks/thorium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumOreDeepslateLoottable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_deepslate_loottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/loot_tables/blocks/thorium_ore_deepslate.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thost_mod/models/item/thorium_nugget.json",
+          "src/main/java/net/mcreator/thostmod/item/ThoriumNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumNuggetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/thorium_nugget_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -252,7 +439,15 @@
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:ThoriumOreDeepslate",
+      "~CUSTOM:ThoriumBlock",
+      "~CUSTOM:ThoriumOre"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ThoriumOreDeepslate",
+      "~CUSTOM:ThoriumBlock",
+      "~CUSTOM:ThoriumOre",
       "~CUSTOM:Thoster"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
@@ -262,15 +457,21 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "death.attack.thoster_death": "%1$s did the funny",
-      "block.thost_mod.thoster": "Thoster",
       "item_group.thost_mod.thost_mod": "Thost Mod",
       "death.attack.thoster_death.player": "%1$s did the funny, just to escape a world with %2$s",
       "item.thost_mod.thosted_thost": "Thosted Thost",
+      "block.thost_mod.thorium_ore_deepslate": "Thorium Deepslate Ore",
       "item.thost_mod.thost": "Thost",
+      "block.thost_mod.thorium_ore": "Thorium Ore",
+      "item.thost_mod.thorium_nugget": "Thorium Nugget",
+      "item.thost_mod.fork": "Fork",
+      "block.thost_mod.thorium_block": "Block of Thorium",
+      "item.thost_mod.thorium_ingot": "Thorium",
+      "death.attack.thoster_death": "%1$s did the funny",
+      "block.thost_mod.thoster": "Thoster",
       "death.attack.thoster_death.item": "%1$s was killed by %2$s by floating point fuckery",
-      "subtitles.bing": "Bing",
-      "item.thost_mod.fork": "Fork"
+      "item.thost_mod.raw_thorium": "Raw Thorium",
+      "subtitles.bing": "Bing"
     }
   },
   "foldersRoot": {

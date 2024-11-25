@@ -3,13 +3,13 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 9,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
@@ -21,28 +21,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ThoriumIngot"
+        "value": ""
       },
       {
-        "value": "Blocks.IRON_BARS"
+        "value": "CUSTOM:ThoriumBlock"
       },
       {
-        "value": "CUSTOM:ThoriumIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:ThoriumIngot"
+        "value": ""
       },
       {
-        "value": "Blocks.MAGMA"
+        "value": ""
       },
       {
-        "value": "CUSTOM:ThoriumIngot"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Thoster"
+      "value": "CUSTOM:ThoriumIngot"
     },
-    "name": "thoster_recipe",
+    "name": "thorium_block_ore_recipe",
     "namespace": "mod"
   }
 }

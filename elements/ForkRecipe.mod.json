@@ -12,28 +12,28 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.IRON_NUGGET"
+        "value": "CUSTOM:ThoriumNugget"
       },
       {
-        "value": "Items.IRON_NUGGET"
+        "value": "CUSTOM:ThoriumNugget"
       },
       {
-        "value": "Items.IRON_NUGGET"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:ThoriumNugget"
       },
       {
         "value": ""
       },
       {
+        "value": "CUSTOM:ThoriumIngot"
+      },
+      {
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThoriumIngot"
       },
       {
         "value": ""

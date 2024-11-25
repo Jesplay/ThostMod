@@ -14,6 +14,9 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.thostmod.item.ToastedToastItem;
 import net.mcreator.thostmod.item.ToastItem;
+import net.mcreator.thostmod.item.ThoriumNuggetItem;
+import net.mcreator.thostmod.item.ThoriumIngotItem;
+import net.mcreator.thostmod.item.RawThoriumItem;
 import net.mcreator.thostmod.item.ForkItem;
 import net.mcreator.thostmod.ThostModMod;
 
@@ -23,6 +26,12 @@ public class ThostModModItems {
 	public static final RegistryObject<Item> FORK = REGISTRY.register("fork", () -> new ForkItem());
 	public static final RegistryObject<Item> THOST = REGISTRY.register("thost", () -> new ToastItem());
 	public static final RegistryObject<Item> THOSTED_THOST = REGISTRY.register("thosted_thost", () -> new ToastedToastItem());
+	public static final RegistryObject<Item> THORIUM_INGOT = REGISTRY.register("thorium_ingot", () -> new ThoriumIngotItem());
+	public static final RegistryObject<Item> THORIUM_ORE = block(ThostModModBlocks.THORIUM_ORE);
+	public static final RegistryObject<Item> THORIUM_BLOCK = block(ThostModModBlocks.THORIUM_BLOCK);
+	public static final RegistryObject<Item> THORIUM_ORE_DEEPSLATE = block(ThostModModBlocks.THORIUM_ORE_DEEPSLATE);
+	public static final RegistryObject<Item> RAW_THORIUM = REGISTRY.register("raw_thorium", () -> new RawThoriumItem());
+	public static final RegistryObject<Item> THORIUM_NUGGET = REGISTRY.register("thorium_nugget", () -> new ThoriumNuggetItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

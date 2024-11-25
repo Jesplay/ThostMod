@@ -3,7 +3,6 @@
   "values": [
     "thost_mod:thorium_ore_deepslate",
     "thost_mod:thorium_block",
-    "thost_mod:thorium_ore",
-    "thost_mod:thoster"
+    "thost_mod:thorium_ore"
   ]
 }

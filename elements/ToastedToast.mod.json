@@ -12,6 +12,9 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:ThostMod"
+      },
+      {
+        "value": "FOOD"
       }
     ],
     "stackSize": 64,

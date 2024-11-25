@@ -2,11 +2,11 @@
   "_fv": 69,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smelting",
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
-    "xpReward": 0.0,
+    "xpReward": 0.7,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
@@ -21,28 +21,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:ThoriumIngot"
+        "value": ""
       },
       {
-        "value": "Blocks.IRON_BARS"
+        "value": ""
       },
       {
-        "value": "CUSTOM:ThoriumIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:ThoriumIngot"
+        "value": ""
       },
       {
-        "value": "Blocks.MAGMA"
+        "value": ""
       },
       {
-        "value": "CUSTOM:ThoriumIngot"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Thoster"
+      "value": ""
     },
-    "name": "thoster_recipe",
+    "smeltingInputStack": {
+      "value": "CUSTOM:ThoriumOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:ThoriumIngot"
+    },
+    "name": "thorium_ore_smelting",
     "namespace": "mod"
   }
 }

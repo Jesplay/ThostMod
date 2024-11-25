@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "thost_mod:block/thoriumoredeepslate",
+    "particle": "thost_mod:block/thoriumoredeepslate"
+  },
+  "render_type": "solid"
+}
