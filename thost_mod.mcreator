@@ -266,7 +266,8 @@
           "src/main/resources/assets/thost_mod/models/block/thorium_ore.json",
           "src/main/resources/data/thost_mod/worldgen/configured_feature/thorium_ore.json",
           "src/main/resources/data/thost_mod/forge/biome_modifier/thorium_ore_biome_modifier.json",
-          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore.json"
+          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore.json",
+          "src/main/resources/data/thost_mod/loot_tables/blocks/thorium_ore.json"
         ]
       }
     },
@@ -336,7 +337,8 @@
           "src/main/java/net/mcreator/thostmod/block/ThoriumOreDeepslateBlock.java",
           "src/main/resources/data/thost_mod/forge/biome_modifier/thorium_ore_deepslate_biome_modifier.json",
           "src/main/resources/data/thost_mod/worldgen/configured_feature/thorium_ore_deepslate.json",
-          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore_deepslate.json"
+          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore_deepslate.json",
+          "src/main/resources/data/thost_mod/loot_tables/blocks/thorium_ore_deepslate.json"
         ]
       }
     },

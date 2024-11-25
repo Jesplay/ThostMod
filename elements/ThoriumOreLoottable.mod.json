@@ -7,8 +7,8 @@
       {
         "minrolls": 1,
         "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 3,
+        "minbonusrolls": 0,
+        "maxbonusrolls": 2,
         "hasbonusrolls": true,
         "entries": [
           {
