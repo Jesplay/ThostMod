@@ -22,7 +22,6 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.thostmod.world.inventory.ThostBagGUIMenu;
-import net.mcreator.thostmod.procedures.PutTheBagProcedure;
 import net.mcreator.thostmod.item.inventory.ThostBagInventoryCapability;
 
 import javax.annotation.Nullable;
@@ -62,7 +61,6 @@ public class ThostBagItem extends Item {
 				buf.writeByte(hand == InteractionHand.MAIN_HAND ? 0 : 1);
 			});
 		}
-		PutTheBagProcedure.execute(entity);
 		return ar;
 	}
 

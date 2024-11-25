@@ -8,12 +8,12 @@
       "registry_name": "thoster",
       "metadata": {
         "files": [
+          "src/main/resources/data/thost_mod/loot_tables/blocks/thoster.json",
           "src/main/java/net/mcreator/thostmod/block/entity/ThosterBlockEntity.java",
-          "src/main/resources/assets/thost_mod/models/item/thoster.json",
           "src/main/java/net/mcreator/thostmod/block/ThosterBlock.java",
-          "src/main/resources/assets/thost_mod/blockstates/thoster.json",
           "src/main/resources/assets/thost_mod/models/block/thoster.json",
-          "src/main/resources/data/thost_mod/loot_tables/blocks/thoster.json"
+          "src/main/resources/assets/thost_mod/models/item/thoster.json",
+          "src/main/resources/assets/thost_mod/blockstates/thoster.json"
         ]
       }
     },
@@ -25,8 +25,8 @@
       "registry_name": "fork",
       "metadata": {
         "files": [
-          "src/main/resources/assets/thost_mod/models/item/fork.json",
-          "src/main/java/net/mcreator/thostmod/item/ForkItem.java"
+          "src/main/java/net/mcreator/thostmod/item/ForkItem.java",
+          "src/main/resources/assets/thost_mod/models/item/fork.json"
         ]
       }
     },
@@ -139,8 +139,8 @@
       "registry_name": "thost",
       "metadata": {
         "files": [
-          "src/main/resources/assets/thost_mod/models/item/thost.json",
-          "src/main/java/net/mcreator/thostmod/item/ToastItem.java"
+          "src/main/java/net/mcreator/thostmod/item/ToastItem.java",
+          "src/main/resources/assets/thost_mod/models/item/thost.json"
         ]
       }
     },
@@ -489,12 +489,16 @@
         ],
         "dependencies": [
           {
-            "name": "entity",
+            "name": "sourceentity",
             "type": "entity"
           },
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -579,24 +583,6 @@
           "src/main/java/net/mcreator/thostmod/item/ThoriumDustItem.java"
         ]
       }
-    },
-    {
-      "name": "PutTheBag",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "put_the_bag",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/thostmod/procedures/PutTheBagProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -672,8 +658,12 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib",
+      "jei"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thostmod"
   },
   "mcreatorVersion": 202400342716

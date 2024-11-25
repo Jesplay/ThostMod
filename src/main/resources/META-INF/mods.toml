@@ -21,6 +21,18 @@ authors="Arianderson, MCreator"
     side="BOTH"
 
 
+[[dependencies.thost_mod]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.thost_mod]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

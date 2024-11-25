@@ -40,9 +40,6 @@
     "guiBoundTo": "ThostBagGUI",
     "inventorySize": 2,
     "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "PutTheBag"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
