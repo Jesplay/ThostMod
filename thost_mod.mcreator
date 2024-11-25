@@ -427,6 +427,30 @@
           "src/main/resources/data/thost_mod/recipes/thorium_nugget_recipe.json"
         ]
       }
+    },
+    {
+      "name": "ThoriumNuggetToIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_nugget_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/thorium_nugget_to_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "ThoriumBlockToIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_block_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/thorium_block_to_ingot.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

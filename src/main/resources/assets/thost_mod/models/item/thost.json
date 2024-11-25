@@ -5,6 +5,6 @@
     "3": "minecraft:block/dark_oak_log",
     "4": "minecraft:block/oak_log",
     "missing": "thost_mod:block/",
-    "particle": "minecraft:item/bread"
+    "particle": "thost_mod:item/thostbythost"
   }
 }

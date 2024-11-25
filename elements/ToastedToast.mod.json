@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "minecraft:bread",
+    "texture": "thostedthostbythostagain",
     "customModelName": "toast_toasted:default",
     "customProperties": {},
     "states": [],
