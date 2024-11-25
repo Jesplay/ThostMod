@@ -597,6 +597,52 @@
           }
         ]
       }
+    },
+    {
+      "name": "DoenerTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doener_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DoenerFleischToBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doener_fleisch_to_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/doener_fleisch_to_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DoenerBlockToFleisch",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doener_block_to_fleisch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/doener_block_to_fleisch.json"
+        ]
+      }
+    },
+    {
+      "name": "DoenerSpiessRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doener_spiess_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/doener_spiess_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
