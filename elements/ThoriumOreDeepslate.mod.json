@@ -41,7 +41,7 @@
     "hardness": 3.0,
     "resistance": 5.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTabs": [
       {
         "value": "CUSTOM:ThostMod"
@@ -134,12 +134,15 @@
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
+      },
+      {
+        "value": "Blocks.DEEPSLATE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 11,
-    "frequencyOnChunk": 7,
+    "frequencyPerChunks": 20,
+    "frequencyOnChunk": 9,
     "minGenerateHeight": -63,
-    "maxGenerateHeight": 0
+    "maxGenerateHeight": 1
   }
 }
