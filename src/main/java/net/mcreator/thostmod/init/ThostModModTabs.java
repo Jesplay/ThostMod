@@ -38,6 +38,7 @@ public class ThostModModTabs {
 				tabData.accept(ThostModModItems.DOENER_FLEISCH.get());
 				tabData.accept(ThostModModBlocks.DOENER_BLOCK.get().asItem());
 				tabData.accept(ThostModModBlocks.SPIESS.get().asItem());
+				tabData.accept(ThostModModItems.THORIUM_DUST.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

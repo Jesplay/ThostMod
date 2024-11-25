@@ -42,7 +42,7 @@ public class ThostBagGUIMenu extends AbstractContainerMenu implements Supplier<M
 		super(ThostModModMenus.THOST_BAG_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(3);
+		this.internal = new ItemStackHandler(2);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -80,11 +80,8 @@ public class ThostBagGUIMenu extends AbstractContainerMenu implements Supplier<M
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 70, 33) {
 			private final int slot = 0;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, -74, -21) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 142, 33) {
 			private final int slot = 1;
-		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 151, 24) {
-			private final int slot = 2;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -118,16 +115,16 @@ public class ThostBagGUIMenu extends AbstractContainerMenu implements Supplier<M
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 3) {
-				if (!this.moveItemStackTo(itemstack1, 3, this.slots.size(), true))
+			if (index < 2) {
+				if (!this.moveItemStackTo(itemstack1, 2, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 3, false)) {
-				if (index < 3 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 3 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 2, false)) {
+				if (index < 2 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 2 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 3, 3 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 2, 2 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

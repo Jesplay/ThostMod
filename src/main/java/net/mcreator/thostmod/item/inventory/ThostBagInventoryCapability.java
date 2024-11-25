@@ -53,7 +53,7 @@ public class ThostBagInventoryCapability implements ICapabilitySerializable<Comp
 	}
 
 	private ItemStackHandler createItemHandler() {
-		return new ItemStackHandler(9) {
+		return new ItemStackHandler(2) {
 			@Override
 			public int getSlotLimit(int slot) {
 				return 64;

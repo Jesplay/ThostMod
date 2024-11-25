@@ -38,8 +38,11 @@
       "fixedValue": false
     },
     "guiBoundTo": "ThostBagGUI",
-    "inventorySize": 9,
+    "inventorySize": 2,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "PutTheBag"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
@@ -55,6 +58,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "none"
   }
 }

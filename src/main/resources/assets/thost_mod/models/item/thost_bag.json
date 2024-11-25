@@ -1,16 +1,16 @@
 {
   "parent": "thost_mod:custom/backpack_new_-_finalbbmodel",
   "textures": {
-    "11": "thost_mod:block/spruce_log",
-    "1": "thost_mod:block/white_concrete",
-    "2": "thost_mod:block/light_gray_terracotta",
-    "3": "thost_mod:block/red_concrete_powder",
-    "5": "thost_mod:block/magma",
-    "6": "thost_mod:block/black_concrete_powder",
-    "7": "thost_mod:block/light_gray_concrete",
-    "missing": "thost_mod:block/light_gray_glazed_terracotta",
-    "8": "thost_mod:block/light_gray_shulker_box",
-    "9": "thost_mod:block/iron_bars",
+    "11": "minecraft:block/spruce_log",
+    "1": "minecraft:block/white_concrete",
+    "2": "minecraft:block/light_gray_terracotta",
+    "3": "minecraft:block/red_concrete_powder",
+    "5": "minecraft:block/black_concrete_powder",
+    "6": "minecraft:block/light_gray_concrete",
+    "7": "minecraft:block/light_gray_glazed_terracotta",
+    "missing": "thost_mod:block/white_concrete",
+    "8": "minecraft:block/light_gray_shulker_box",
+    "9": "minecraft:block/iron_bars",
     "10": "minecraft:block/acacia_door_top",
     "particle": "thost_mod:item/img_7552"
   }
