@@ -266,8 +266,7 @@
           "src/main/resources/assets/thost_mod/models/block/thorium_ore.json",
           "src/main/resources/data/thost_mod/worldgen/configured_feature/thorium_ore.json",
           "src/main/resources/data/thost_mod/forge/biome_modifier/thorium_ore_biome_modifier.json",
-          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore.json",
-          "src/main/resources/data/thost_mod/loot_tables/blocks/thorium_ore.json"
+          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore.json"
         ]
       }
     },
@@ -337,8 +336,7 @@
           "src/main/java/net/mcreator/thostmod/block/ThoriumOreDeepslateBlock.java",
           "src/main/resources/data/thost_mod/forge/biome_modifier/thorium_ore_deepslate_biome_modifier.json",
           "src/main/resources/data/thost_mod/worldgen/configured_feature/thorium_ore_deepslate.json",
-          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore_deepslate.json",
-          "src/main/resources/data/thost_mod/loot_tables/blocks/thorium_ore_deepslate.json"
+          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore_deepslate.json"
         ]
       }
     },
@@ -451,6 +449,55 @@
           "src/main/resources/data/thost_mod/recipes/thorium_block_to_ingot.json"
         ]
       }
+    },
+    {
+      "name": "ThostBagGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thost_bag_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thostmod/world/inventory/ThostBagGUIMenu.java",
+          "src/main/java/net/mcreator/thostmod/client/gui/ThostBagGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ThostBag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thost_bag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thostmod/item/ThostBagItem.java",
+          "src/main/java/net/mcreator/thostmod/item/inventory/ThostBagInventoryCapability.java",
+          "src/main/resources/assets/thost_mod/models/item/thost_bag.json"
+        ]
+      }
+    },
+    {
+      "name": "ThostBagGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thost_bag_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thostmod/procedures/ThostBagGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -492,6 +539,8 @@
       "item.thost_mod.thorium_nugget": "Thorium Nugget",
       "item.thost_mod.fork": "Fork",
       "block.thost_mod.thorium_block": "Block of Thorium",
+      "gui.thost_mod.thost_bag_gui.label_thost_bag": "Thost Bag",
+      "item.thost_mod.thost_bag": "Thost Bag",
       "item.thost_mod.thorium_ingot": "Thorium",
       "death.attack.thoster_death": "%1$s did the funny",
       "block.thost_mod.thoster": "Thoster",

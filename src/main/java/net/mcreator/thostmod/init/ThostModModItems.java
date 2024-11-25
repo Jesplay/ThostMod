@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.thostmod.item.ToastedToastItem;
 import net.mcreator.thostmod.item.ToastItem;
+import net.mcreator.thostmod.item.ThostBagItem;
 import net.mcreator.thostmod.item.ThoriumNuggetItem;
 import net.mcreator.thostmod.item.ThoriumIngotItem;
 import net.mcreator.thostmod.item.RawThoriumItem;
@@ -32,6 +33,7 @@ public class ThostModModItems {
 	public static final RegistryObject<Item> THORIUM_ORE_DEEPSLATE = block(ThostModModBlocks.THORIUM_ORE_DEEPSLATE);
 	public static final RegistryObject<Item> RAW_THORIUM = REGISTRY.register("raw_thorium", () -> new RawThoriumItem());
 	public static final RegistryObject<Item> THORIUM_NUGGET = REGISTRY.register("thorium_nugget", () -> new ThoriumNuggetItem());
+	public static final RegistryObject<Item> THOST_BAG = REGISTRY.register("thost_bag", () -> new ThostBagItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.thostmod.init.ThostModModTabs;
 import net.mcreator.thostmod.init.ThostModModSounds;
+import net.mcreator.thostmod.init.ThostModModMenus;
 import net.mcreator.thostmod.init.ThostModModItems;
 import net.mcreator.thostmod.init.ThostModModBlocks;
 import net.mcreator.thostmod.init.ThostModModBlockEntities;
@@ -48,6 +49,8 @@ public class ThostModMod {
 		ThostModModItems.REGISTRY.register(bus);
 
 		ThostModModTabs.REGISTRY.register(bus);
+
+		ThostModModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

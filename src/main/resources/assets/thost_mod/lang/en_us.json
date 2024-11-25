@@ -8,6 +8,8 @@
   "item.thost_mod.thorium_nugget": "Thorium Nugget",
   "item.thost_mod.fork": "Fork",
   "block.thost_mod.thorium_block": "Block of Thorium",
+  "gui.thost_mod.thost_bag_gui.label_thost_bag": "Thost Bag",
+  "item.thost_mod.thost_bag": "Thost Bag",
   "item.thost_mod.thorium_ingot": "Thorium",
   "death.attack.thoster_death": "%1$s did the funny",
   "block.thost_mod.thoster": "Thoster",

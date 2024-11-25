@@ -33,6 +33,7 @@ public class ThostModModTabs {
 				tabData.accept(ThostModModBlocks.THORIUM_ORE_DEEPSLATE.get().asItem());
 				tabData.accept(ThostModModItems.RAW_THORIUM.get());
 				tabData.accept(ThostModModItems.THORIUM_NUGGET.get());
+				tabData.accept(ThostModModItems.THOST_BAG.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -56,6 +57,10 @@ public class ThostModModTabs {
 
 			tabData.accept(ThostModModBlocks.THORIUM_ORE.get().asItem());
 			tabData.accept(ThostModModBlocks.THORIUM_ORE_DEEPSLATE.get().asItem());
+
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
+			tabData.accept(ThostModModItems.THOST_BAG.get());
 
 		}
 	}

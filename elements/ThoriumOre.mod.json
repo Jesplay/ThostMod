@@ -2,7 +2,7 @@
   "_fv": 69,
   "_type": "block",
   "definition": {
-    "texture": "thorium",
+    "texture": "thoriumorestone",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -55,7 +55,7 @@
       "value": "CUSTOM:RawThorium"
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
