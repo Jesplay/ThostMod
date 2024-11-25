@@ -1,10 +1,6 @@
 {
-  "parent": "thost_mod:custom/toast_toasted",
+  "parent": "item/generated",
   "textures": {
-    "3": "minecraft:block/dark_oak_log",
-    "4": "minecraft:block/oak_log",
-    "6": "minecraft:block/stripped_oak_log",
-    "missing": "thost_mod:block/",
-    "particle": "thost_mod:item/thostedthostbythostagain"
+    "layer0": "thost_mod:item/thostedthostbythostagain"
   }
 }
