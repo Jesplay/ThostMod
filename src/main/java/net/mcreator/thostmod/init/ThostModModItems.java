@@ -18,6 +18,7 @@ import net.mcreator.thostmod.item.ThostBagItem;
 import net.mcreator.thostmod.item.ThoriumPlateItem;
 import net.mcreator.thostmod.item.ThoriumNuggetItem;
 import net.mcreator.thostmod.item.ThoriumIngotItem;
+import net.mcreator.thostmod.item.ThoriumDustItem;
 import net.mcreator.thostmod.item.RawThoriumItem;
 import net.mcreator.thostmod.item.ForkItem;
 import net.mcreator.thostmod.item.DoenerFleischItem;
@@ -40,6 +41,7 @@ public class ThostModModItems {
 	public static final RegistryObject<Item> DOENER_FLEISCH = REGISTRY.register("doener_fleisch", () -> new DoenerFleischItem());
 	public static final RegistryObject<Item> DOENER_BLOCK = block(ThostModModBlocks.DOENER_BLOCK);
 	public static final RegistryObject<Item> SPIESS = block(ThostModModBlocks.SPIESS);
+	public static final RegistryObject<Item> THORIUM_DUST = REGISTRY.register("thorium_dust", () -> new ThoriumDustItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

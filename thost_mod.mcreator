@@ -247,8 +247,8 @@
       "registry_name": "thorium_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thostmod/item/ThoriumIngotItem.java",
-          "src/main/resources/assets/thost_mod/models/item/thorium_ingot.json"
+          "src/main/resources/assets/thost_mod/models/item/thorium_ingot.json",
+          "src/main/java/net/mcreator/thostmod/item/ThoriumIngotItem.java"
         ]
       }
     },
@@ -260,13 +260,13 @@
       "registry_name": "thorium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/thost_mod/models/item/thorium_ore.json",
-          "src/main/resources/assets/thost_mod/blockstates/thorium_ore.json",
-          "src/main/java/net/mcreator/thostmod/block/ThoriumOreBlock.java",
-          "src/main/resources/assets/thost_mod/models/block/thorium_ore.json",
           "src/main/resources/data/thost_mod/worldgen/configured_feature/thorium_ore.json",
-          "src/main/resources/data/thost_mod/forge/biome_modifier/thorium_ore_biome_modifier.json",
-          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore.json"
+          "src/main/resources/assets/thost_mod/models/item/thorium_ore.json",
+          "src/main/resources/assets/thost_mod/models/block/thorium_ore.json",
+          "src/main/java/net/mcreator/thostmod/block/ThoriumOreBlock.java",
+          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore.json",
+          "src/main/resources/assets/thost_mod/blockstates/thorium_ore.json",
+          "src/main/resources/data/thost_mod/forge/biome_modifier/thorium_ore_biome_modifier.json"
         ]
       }
     },
@@ -278,11 +278,11 @@
       "registry_name": "thorium_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/thost_mod/loot_tables/blocks/thorium_block.json",
-          "src/main/resources/assets/thost_mod/models/block/thorium_block.json",
           "src/main/java/net/mcreator/thostmod/block/ThoriumBlockBlock.java",
           "src/main/resources/assets/thost_mod/models/item/thorium_block.json",
-          "src/main/resources/assets/thost_mod/blockstates/thorium_block.json"
+          "src/main/resources/assets/thost_mod/models/block/thorium_block.json",
+          "src/main/resources/assets/thost_mod/blockstates/thorium_block.json",
+          "src/main/resources/data/thost_mod/loot_tables/blocks/thorium_block.json"
         ]
       }
     },
@@ -330,13 +330,13 @@
       "registry_name": "thorium_ore_deepslate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/thost_mod/blockstates/thorium_ore_deepslate.json",
-          "src/main/resources/assets/thost_mod/models/block/thorium_ore_deepslate.json",
-          "src/main/resources/assets/thost_mod/models/item/thorium_ore_deepslate.json",
-          "src/main/java/net/mcreator/thostmod/block/ThoriumOreDeepslateBlock.java",
-          "src/main/resources/data/thost_mod/forge/biome_modifier/thorium_ore_deepslate_biome_modifier.json",
+          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore_deepslate.json",
           "src/main/resources/data/thost_mod/worldgen/configured_feature/thorium_ore_deepslate.json",
-          "src/main/resources/data/thost_mod/worldgen/placed_feature/thorium_ore_deepslate.json"
+          "src/main/java/net/mcreator/thostmod/block/ThoriumOreDeepslateBlock.java",
+          "src/main/resources/assets/thost_mod/models/item/thorium_ore_deepslate.json",
+          "src/main/resources/data/thost_mod/forge/biome_modifier/thorium_ore_deepslate_biome_modifier.json",
+          "src/main/resources/assets/thost_mod/blockstates/thorium_ore_deepslate.json",
+          "src/main/resources/assets/thost_mod/models/block/thorium_ore_deepslate.json"
         ]
       }
     },
@@ -409,8 +409,8 @@
       "registry_name": "thorium_nugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/thost_mod/models/item/thorium_nugget.json",
-          "src/main/java/net/mcreator/thostmod/item/ThoriumNuggetItem.java"
+          "src/main/java/net/mcreator/thostmod/item/ThoriumNuggetItem.java",
+          "src/main/resources/assets/thost_mod/models/item/thorium_nugget.json"
         ]
       }
     },
@@ -507,8 +507,8 @@
       "registry_name": "thorium_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/thost_mod/models/item/thorium_plate.json",
-          "src/main/java/net/mcreator/thostmod/item/ThoriumPlateItem.java"
+          "src/main/java/net/mcreator/thostmod/item/ThoriumPlateItem.java",
+          "src/main/resources/assets/thost_mod/models/item/thorium_plate.json"
         ]
       }
     },
@@ -533,11 +533,11 @@
       "registry_name": "doener_block",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/thostmod/block/DoenerBlockBlock.java",
+          "src/main/resources/data/thost_mod/loot_tables/blocks/doener_block.json",
           "src/main/resources/assets/thost_mod/blockstates/doener_block.json",
           "src/main/resources/assets/thost_mod/models/block/doener_block.json",
-          "src/main/resources/assets/thost_mod/models/item/doener_block.json",
-          "src/main/resources/data/thost_mod/loot_tables/blocks/doener_block.json",
-          "src/main/java/net/mcreator/thostmod/block/DoenerBlockBlock.java"
+          "src/main/resources/assets/thost_mod/models/item/doener_block.json"
         ]
       }
     },
@@ -549,10 +549,10 @@
       "registry_name": "spiess",
       "metadata": {
         "files": [
-          "src/main/resources/assets/thost_mod/models/block/spiess.json",
           "src/main/resources/assets/thost_mod/blockstates/spiess.json",
           "src/main/java/net/mcreator/thostmod/block/SpiessBlock.java",
           "src/main/resources/assets/thost_mod/models/item/spiess.json",
+          "src/main/resources/assets/thost_mod/models/block/spiess.json",
           "src/main/resources/data/thost_mod/loot_tables/blocks/spiess.json"
         ]
       }
@@ -565,6 +565,19 @@
       "registry_name": "doenermensch",
       "metadata": {
         "files": []
+      }
+    },
+    {
+      "name": "ThoriumDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thost_mod/models/item/thorium_dust.json",
+          "src/main/java/net/mcreator/thostmod/item/ThoriumDustItem.java"
+        ]
       }
     }
   ],
@@ -602,25 +615,26 @@
   "language_map": {
     "en_us": {
       "entity.minecraft.villager.thost_mod.doenermensch": "Doenermensch",
+      "item.thost_mod.thorium_dust": "Thorium Dust",
       "item_group.thost_mod.thost_mod": "Thost Mod",
       "death.attack.thoster_death.player": "%1$s did the funny, just to escape a world with %2$s",
       "item.thost_mod.thorium_plate": "Thorium Plate",
       "block.thost_mod.thorium_ore_deepslate": "Thorium Deepslate Ore",
+      "item.thost_mod.thosted_thost": "Thosted Thost",
       "item.thost_mod.thost": "Thost",
+      "block.thost_mod.doener_block": "Doener Block",
       "block.thost_mod.spiess": "Spiess",
       "block.thost_mod.thorium_ore": "Thorium Ore",
       "item.thost_mod.thorium_nugget": "Thorium Nugget",
-      "item.thost_mod.thost_bag": "Thost Bag",
-      "block.thost_mod.thoster": "Thoster",
-      "death.attack.thoster_death.item": "%1$s was killed by %2$s by floating point fuckery",
-      "item.thost_mod.thosted_thost": "Thosted Thost",
-      "block.thost_mod.doener_block": "Doener Block",
       "item.thost_mod.fork": "Fork",
       "block.thost_mod.thorium_block": "Block of Thorium",
+      "item.thost_mod.thost_bag": "Thost Bag",
       "gui.thost_mod.thost_bag_gui.label_thost_bag": "Thost Bag",
       "item.thost_mod.thorium_ingot": "Thorium",
       "item.thost_mod.doener_fleisch": "Kebap Meat",
       "death.attack.thoster_death": "%1$s did the funny",
+      "block.thost_mod.thoster": "Thoster",
+      "death.attack.thoster_death.item": "%1$s was killed by %2$s by floating point fuckery",
       "item.thost_mod.raw_thorium": "Raw Thorium",
       "subtitles.bing": "\"Bing\""
     }
