@@ -5,7 +5,6 @@ import net.minecraftforge.items.ItemHandlerHelper;
 
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -54,8 +53,10 @@ public class InputthostProcedure {
 				return InteractionResult.SUCCESS;
 			}
 		}
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Blocks.AIR.asItem()) {
-			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip15 ? blockstate.getValue(_getip15) : -1) == 1) {
+		if (!((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == ThostModModItems.THOST.get())
+				|| (blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip15 ? blockstate.getValue(_getip15) : -1) == 2
+				|| (blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip17 ? blockstate.getValue(_getip17) : -1) >= 5) {
+			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip19 ? blockstate.getValue(_getip19) : -1) == 1) {
 				{
 					int _value = 3;
 					BlockPos _pos = BlockPos.containing(x, y, z);
@@ -81,7 +82,7 @@ public class InputthostProcedure {
 				});
 				return InteractionResult.SUCCESS;
 			}
-			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip22 ? blockstate.getValue(_getip22) : -1) == 2) {
+			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip26 ? blockstate.getValue(_getip26) : -1) == 2) {
 				{
 					int _value = 4;
 					BlockPos _pos = BlockPos.containing(x, y, z);
@@ -107,7 +108,7 @@ public class InputthostProcedure {
 				});
 				return InteractionResult.SUCCESS;
 			}
-			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip29 ? blockstate.getValue(_getip29) : -1) == 5) {
+			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip33 ? blockstate.getValue(_getip33) : -1) == 5) {
 				{
 					int _value = 0;
 					BlockPos _pos = BlockPos.containing(x, y, z);
@@ -122,7 +123,7 @@ public class InputthostProcedure {
 				}
 				return InteractionResult.SUCCESS;
 			}
-			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip34 ? blockstate.getValue(_getip34) : -1) == 6) {
+			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip38 ? blockstate.getValue(_getip38) : -1) == 6) {
 				{
 					int _value = 0;
 					BlockPos _pos = BlockPos.containing(x, y, z);
