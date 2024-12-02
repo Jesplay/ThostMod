@@ -39,6 +39,7 @@ public class ThostModModTabs {
 				tabData.accept(ThostModModBlocks.DOENER_BLOCK.get().asItem());
 				tabData.accept(ThostModModBlocks.SPIESS.get().asItem());
 				tabData.accept(ThostModModItems.THORIUM_DUST.get());
+				tabData.accept(ThostModModBlocks.RAW_THORIUM_BLOCK.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -46,6 +47,7 @@ public class ThostModModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
 			tabData.accept(ThostModModBlocks.THORIUM_BLOCK.get().asItem());
+			tabData.accept(ThostModModBlocks.RAW_THORIUM_BLOCK.get().asItem());
 
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 

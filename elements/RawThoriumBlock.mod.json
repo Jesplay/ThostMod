@@ -42,7 +42,14 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "CUSTOM:ThostMod"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
