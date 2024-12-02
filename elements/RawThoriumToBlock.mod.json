@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RawThorium"
+      },
+      {
+        "value": "CUSTOM:RawThorium"
+      },
+      {
+        "value": "CUSTOM:RawThorium"
+      },
+      {
+        "value": "CUSTOM:RawThorium"
+      },
+      {
+        "value": "CUSTOM:RawThorium"
+      },
+      {
+        "value": "CUSTOM:RawThorium"
+      },
+      {
+        "value": "CUSTOM:RawThorium"
+      },
+      {
+        "value": "CUSTOM:RawThorium"
+      },
+      {
+        "value": "CUSTOM:RawThorium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RawThoriumBlock"
+    },
+    "name": "raw_thorium_to_block",
+    "namespace": "mod"
+  }
+}
