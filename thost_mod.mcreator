@@ -754,9 +754,10 @@
   "workspaceSettings": {
     "modid": "thost_mod",
     "modName": "Thost Mod",
-    "version": "1.0.0",
-    "author": "Arianderson, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "1.1.0",
+    "description": "Mod description",
+    "author": "Jesplay, Thost, Eden, LeLachs",
+    "websiteURL": "https://modrinth.com/mod/thost-mod",
     "license": "Not specified",
     "serverSideOnly": false,
     "requiredMods": [],
