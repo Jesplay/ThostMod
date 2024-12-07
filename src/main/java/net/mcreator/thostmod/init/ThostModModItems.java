@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.thostmod.item.ToastedToastItem;
 import net.mcreator.thostmod.item.ToastItem;
 import net.mcreator.thostmod.item.ThostBagItem;
+import net.mcreator.thostmod.item.ThoriumSwordItem;
 import net.mcreator.thostmod.item.ThoriumPlateItem;
 import net.mcreator.thostmod.item.ThoriumNuggetItem;
 import net.mcreator.thostmod.item.ThoriumIngotItem;
@@ -43,6 +44,7 @@ public class ThostModModItems {
 	public static final RegistryObject<Item> SPIESS = block(ThostModModBlocks.SPIESS);
 	public static final RegistryObject<Item> THORIUM_DUST = REGISTRY.register("thorium_dust", () -> new ThoriumDustItem());
 	public static final RegistryObject<Item> RAW_THORIUM_BLOCK = block(ThostModModBlocks.RAW_THORIUM_BLOCK);
+	public static final RegistryObject<Item> THORIUM_SWORD = REGISTRY.register("thorium_sword", () -> new ThoriumSwordItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

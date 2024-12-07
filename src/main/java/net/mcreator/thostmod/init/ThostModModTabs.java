@@ -40,6 +40,7 @@ public class ThostModModTabs {
 				tabData.accept(ThostModModBlocks.SPIESS.get().asItem());
 				tabData.accept(ThostModModItems.THORIUM_DUST.get());
 				tabData.accept(ThostModModBlocks.RAW_THORIUM_BLOCK.get().asItem());
+				tabData.accept(ThostModModItems.THORIUM_SWORD.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -70,6 +71,7 @@ public class ThostModModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 
 			tabData.accept(ThostModModItems.THOST_BAG.get());
+			tabData.accept(ThostModModItems.THORIUM_SWORD.get());
 
 		}
 	}
