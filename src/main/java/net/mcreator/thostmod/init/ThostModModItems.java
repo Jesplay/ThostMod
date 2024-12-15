@@ -42,6 +42,7 @@ public class ThostModModItems {
 	public static final RegistryObject<Item> DOENER_BLOCK = block(ThostModModBlocks.DOENER_BLOCK);
 	public static final RegistryObject<Item> SPIESS = block(ThostModModBlocks.SPIESS);
 	public static final RegistryObject<Item> THORIUM_DUST = REGISTRY.register("thorium_dust", () -> new ThoriumDustItem());
+	public static final RegistryObject<Item> RAW_THORIUM_BLOCK = block(ThostModModBlocks.RAW_THORIUM_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

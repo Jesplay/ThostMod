@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "thost_mod:raw_thorium_block",
     "thost_mod:thorium_ore_deepslate",
     "thost_mod:thorium_block",
     "thost_mod:thorium_ore"

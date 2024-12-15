@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 1,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "thost_mod:thoriumore"
+        },
+        "state": {
+          "Name": "thost_mod:raw_thorium_block"
+        }
+      }
+    ]
+  }
+}

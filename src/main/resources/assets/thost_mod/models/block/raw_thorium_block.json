@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thost_mod:block/rawthoriumblock",
+    "up": "thost_mod:block/rawthoriumblock",
+    "north": "thost_mod:block/rawthoriumblock",
+    "east": "thost_mod:block/rawthoriumblock",
+    "south": "thost_mod:block/rawthoriumblock",
+    "west": "thost_mod:block/rawthoriumblock",
+    "particle": "thost_mod:block/rawthoriumblock"
+  },
+  "render_type": "solid"
+}
