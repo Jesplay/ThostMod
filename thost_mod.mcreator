@@ -631,6 +631,43 @@
       }
     },
     {
+      "name": "ThoriumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thost_mod/models/item/thorium_sword.json",
+          "src/main/java/net/mcreator/thostmod/item/ThoriumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RawThoriumToBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_thorium_to_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/raw_thorium_to_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RawThoriumBlockToRaw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_thorium_block_to_raw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thost_mod/recipes/raw_thorium_block_to_raw.json"
+        ]
+      }
+    },
+    {
       "name": "RawThoriumBlock",
       "type": "block",
       "compiles": true,
@@ -681,9 +718,8 @@
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:DoenerBlock"
     ],
-    "BLOCKS:mod:thoriumore": [
-      "CUSTOM:ThoriumOre",
-      "CUSTOM:ThoriumOreDeepslate"
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ThoriumSword"
     ]
   },
   "tab_element_order": {},

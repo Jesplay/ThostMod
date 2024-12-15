@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "thost_mod:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "thost_mod:raw_thorium",
+    "count": 9
+  }
+}
